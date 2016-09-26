@@ -1,0 +1,416 @@
+/*public*/
+* {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  /*  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;*/
+}
+html {
+  min-height: 100%;
+}
+body {
+	position: relative;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+  background: #efeff4;
+  margin: 0 auto;
+  width: 100%;
+  -webkit-text-size-adjust: none;
+  font-family: "微软雅黑", helvetica;
+  min-height: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img,
+input,
+select {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+}
+li {
+  list-style-type: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th,
+td {
+  padding: 0;
+}
+input,
+button,
+select,
+textarea {
+  outline: none;
+  -webkit-appearance: none;
+}
+a {
+  color: #333;
+  outline: medium none;
+  text-decoration: none;
+}
+a:hover {
+  color: #333;
+  text-decoration: none;
+}
+.left {
+  float: left !important;
+  display: inline;
+}
+.right {
+  float: right !important;
+  display: inline;
+}
+.clearf {
+  clear: both;
+  line-height: 0;
+  height: 0%;
+  font: 0px Arial;
+  overflow: hidden;
+}
+
+/*
+ *瑞普打地鼠.html
+ */
+/*body*/
+.nor-body{
+	padding-top: 4.2%;
+	padding-bottom: 10%;
+}
+.pre-game-bg{
+	background: #83aa2e url(../images/pre_game_bg.png) no-repeat center top;
+	background-size: 100% auto;
+}
+.game-bg{
+	background: #83aa2e url(../images/game_bg.png) no-repeat center top;
+	background-size: 100% auto;
+}
+/*遮罩*/
+.mask{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 200;
+	background: rgba(0,0,0,0.6);
+}
+/*倒计时模块*/
+.countdown-con{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 300;
+	width: 17%;
+	height: 82px;
+	margin-top: -41px;
+	margin-left: -8.5%;
+}
+.countdown-con .countdown-img{
+	width: 100%;
+	height: 82px;
+}
+/*顶端数据模块*/
+.top-data-con{
+  margin-right: 3%;
+}
+.top-data-con .data-div + .data-div{margin-right: 30px;}
+.top-data-con .data-div p{
+	font-size: 12px;
+	color: #fff;
+	line-height: 1.2em;
+}
+.top-data-con .data-div .data-span{
+	font-size: 12px;
+	color: #f94153;
+	line-height: 1.2em;
+}
+/*地鼠洞模块*/
+.hole-con{
+	width: 100%;
+	margin-top: 29.5%;
+	padding-left: 5%;
+	padding-right: 2%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.hole-con .hole-tbl{
+	width: 100%;
+	text-align: center;
+}
+.hole-con .hole-tbl tbody tr td{
+	position: relative;
+	width: 33.33333333%;
+	width: -moz-calc(100% / 3);
+	width: -webkit-calc(100% / 3);
+  padding: 11% 0;
+	vertical-align: bottom;
+}
+.hole-con .hole-tbl tbody tr td .people-img{
+	bottom: 20px;
+	/* bottom: 10%; */
+    border: 0;
+    position: absolute;
+    left: 50%;
+   /*  bottom: 0; */
+	  z-index: 100;
+    width: 0%;
+    height: auto;
+    margin-left: 0%;
+}
+/*活动说明模块*/
+.rule-con{
+	width: 100%;
+	margin-top: 30%;
+}
+.rule-con .nor-p{
+	font-size: 12px;
+	color: #fff;
+	line-height: 1.2em;
+	text-align: center;
+}
+.rule-con .nor-p + .nor-p{margin-top: 9px;}
+/*按钮模块*/
+.btn-con{
+	width: 35%;
+	margin: 4% auto 0;
+}
+.btn-con .begin-btn-img{
+	width: 100%;
+	height: auto;
+}
+#tips{
+	margin-top: 28%;
+    text-align: center;
+    padding-right: 10%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.tip{
+	width: 30%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
